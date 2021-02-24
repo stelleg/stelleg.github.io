@@ -21,26 +21,27 @@ body {
 }
 
 a {
-  color: #0645ad;
+  color: #ba3132; 
   text-decoration: none;
 }
 
 a:visited {
-  color: #0b0080;
+  color: #ba3132; 
 }
 
 a:hover {
-  color: #06e;
+  color: #1b998b;
 }
 
 a:active {
-  color: #faa700;
+  color: #2E294E;
 }
 
 a:focus {
   outline: thin dotted;
 }
 
+/*
 *::-moz-selection {
   background: rgba(255, 255, 0, 0.3);
   color: #000;
@@ -48,7 +49,7 @@ a:focus {
 
 *::selection {
   background: rgba(255, 255, 0, 0.3);
-  color: #000;
+  /*color: #000;
 }
 
 a::-moz-selection {
@@ -60,6 +61,7 @@ a::selection {
   background: rgba(255, 255, 0, 0.3);
   color: #0645ad;
 }
+*/
 
 p {
   margin: 1em 0;
@@ -70,7 +72,8 @@ img {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #111;
+/*  color: #111; */
+  color: #ba3132; 
   line-height: 125%;
   margin-top: 2em;
   font-weight: normal;
@@ -246,8 +249,8 @@ table td {
 }
 
 .author {
-  font-size: 1.2em;
-  text-align: right;
+  font-size: 1em;
+  text-align: center;
 }
 
 @media only screen and (min-width: 480px) {

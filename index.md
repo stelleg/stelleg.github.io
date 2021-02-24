@@ -1,6 +1,6 @@
 ---
-title: George Stelle
-author: stelleg at lanl.gov ∘ [cv](cv.pdf)
+title: George Stelle 
+author: $\;$ [✉](mailto:stelleg@lanl.gov) stelleg@lanl.gov ∘ [☏](tel:5057508506) (505)750-8506 ∘ [☑](cv.pdf) Curriculum Vitae
 ---
 
 ## Research
