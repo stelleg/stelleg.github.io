@@ -1,0 +1,129 @@
+@inproceedings{stelle2018verifiably,
+  author={George Stelle and Darko Stefanovic},
+  title = {Verifiably Lazy: Verified Compilation of Call-by-Need},
+  booktitle={Proceedings of the 30th Symposium on the Implementation and Application of Functional Programming Languages},
+  series = {IFL 2018},
+  year={2018},
+  location={Lowell, MA, USA},
+  publisher= {ACM},
+  address = {New York, NY, USA},
+  pages = {to appear},
+}
+
+@inproceedings{lee2018correctness,
+  author={W. {Lee} and G. {Stelle} and P. {McCormick} and A. {Aiken}},
+  booktitle={2018 IEEE/ACM 2nd International Workshop on Software Correctness for HPC Applications (Correctness)},
+  title={Correctness of Dynamic Dependence Analysis for Implicitly Parallel Tasking Systems},
+  year={2018},
+  volume={},
+  number={},
+  pages={17-24},
+  keywords={Task analysis;Heuristic algorithms;Schedules;Semantics;Analytical models;Runtime;Performance analysis;correctness;dependence-analysis;tasking-runtimes;implicit-parallelism;programming-model},
+  doi={10.1109/Correctness.2018.00007},
+  ISSN={},
+  month={Nov},
+}
+
+@inproceedings{stelle2017openmpir,
+  author = {Stelle, George and Moses, William S. and Olivier, Stephen L. and McCormick, Patrick},
+  title = {{OpenMPIR:} Implementing OpenMP Tasks with Tapir},
+  booktitle = {Proceedings of the Fourth Workshop on the LLVM Compiler Infrastructure in HPC},
+  series = {LLVM-HPC'17},
+  year = {2017},
+  isbn = {978-1-4503-5565-0},
+  location = {Denver, CO, USA},
+  pages = {3:1--3:12},
+  articleno = {3},
+  numpages = {12},
+  url = {http://doi.acm.org/10.1145/3148173.3148186},
+  doi = {10.1145/3148173.3148186},
+  acmid = {3148186},
+  publisher = {ACM},
+  address = {New York, NY, USA},
+}
+
+@inproceedings{evans2017scheduling,
+ author = {Evans, Noah and Olivier, Stephen L. and Barrett, Richard and Stelle, George},
+ title = {Scheduling Chapel Tasks with Qthreads on Manycore: A Tale of Two Schedulers},
+ booktitle = {Proceedings of the 7th International Workshop on Runtime and Operating Systems for Supercomputers ROSS 2017},
+ series = {ROSS '17},
+ year = {2017},
+ isbn = {978-1-4503-5086-0},
+ location = {Washingon, DC, USA},
+ pages = {4:1--4:8},
+ articleno = {4},
+ numpages = {8},
+ url = {http://doi.acm.org/10.1145/3095770.3095774},
+ doi = {10.1145/3095770.3095774},
+ acmid = {3095774},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {Chapel, Qthreads, Task Queues, Work Stealing},
+} 
+
+@InProceedings{stelle2016cem,
+author="Stelle, George
+and Stefanovic, Darko
+and Olivier, Stephen L.
+and Forrest, Stephanie",
+editor="Van Horn, David
+and Hughes, John",
+title="Cactus Environment Machine",
+booktitle="Trends in Functional Programming",
+year="2016",
+publisher="Springer International Publishing",
+address="Cham",
+pages="24--43",
+abstract="Existing machines for lazy evaluation use a flat representation of environments, storing the terms associated with free variables in an array. Combined with a heap, this structure supports the shared intermediate results required by lazy evaluation. We propose and describe an alternative approach that uses a shared environment to minimize the overhead of delayed computations. We show how a shared environment can act as both an environment and a mechanism for sharing results. To formalize this approach, we introduce a calculus that makes the shared environment explicit, as well as a machine to implement the calculus, the Cactus Environment Machine. A simple compiler implements the machine and is used to run experiments for assessing performance. The results show reasonable performance and suggest that incorporating this approach into real-world compilers could yield performance benefits in some scenarios.",
+isbn="978-3-030-14805-8"
+}
+
+@INPROCEEDINGS{stelle2014hardware,
+author={G. {Stelle} and S. L. {Olivier} and D. {Stark} and A. F. {Rodrigues} and K. S. {Hemmert}},
+booktitle={2014 Hardware-Software Co-Design for High Performance Computing},
+title={Using a Complementary Emulation-Simulation Co-Design Approach to Assess Application Readiness for Processing-in-Memory Systems},
+year={2014},
+volume={},
+number={},
+pages={64-71},
+keywords={memory architecture;multiprocessing systems;power aware computing;complementary emulation-simulation co-design approach;application readiness assessment;processing-in-memory systems;computer architecture;extreme-scale computing;collaborative research and development;PIM architectures;data co-location;data movement;memory speed improvement;capacity improvement;energy efficiency improvement;PIM evaluation;production applications;locality-aware data distribution;locality-oblivious data distribution;locality-aware data computation;locality-oblivious data computation;application-architecture interactions;Computer architecture;Computational modeling;Emulation;Clocks;Hardware;Sockets;Resource management},
+doi={10.1109/Co-HPC.2014.5},
+ISSN={},
+month={Nov},}
+
+@InProceedings{hofmeyr2013modeling,
+author="Hofmeyr, Steven
+and Moore, Tyler
+and Forrest, Stephanie
+and Edwards, Benjamin
+and Stelle, George",
+editor="Schneier, Bruce",
+title="Modeling Internet-Scale Policies for Cleaning up Malware",
+booktitle="Economics of Information Security and Privacy III",
+year="2013",
+publisher="Springer New York",
+address="New York, NY",
+pages="149--170",
+abstract="An emerging consensus among policy makers is that interventions undertaken by Internet Service Providers are the best way to counter the rising incidence of malware. However, assessing the suitability of countermeasures at this scale is hard. In this paper, we use an agent-based model, called ASIM, to investigate the impact of policy interventions at the Autonomous System level of the Internet. For instance, we find that coordinated intervention by the 0.2{\%}-biggest ASes is more effective than uncoordinated efforts adopted by 30{\%} of all ASes. Furthermore, countermeasures that block malicious transit traffic appear more effective than ones that block outgoing traffic. The model allows us to quantify and compare positive externalities created by different countermeasures. Our results give an initial indication of the types and levels of intervention that are most cost-effective at large scale.",
+isbn="978-1-4614-1981-5"
+}
+
+@inproceedings{edwards2012beyond,
+ author = {Edwards, Benjamin and Moore, Tyler and Stelle, George and Hofmeyr, Steven and Forrest, Stephanie},
+ title = {Beyond the Blacklist: Modeling Malware Spread and the Effect of Interventions},
+ booktitle = {Proceedings of the 2012 New Security Paradigms Workshop},
+ series = {NSPW '12},
+ year = {2012},
+ isbn = {978-1-4503-1794-8},
+ location = {Bertinoro, Italy},
+ pages = {53--66},
+ numpages = {14},
+ url = {http://doi.acm.org/10.1145/2413296.2413302},
+ doi = {10.1145/2413296.2413302},
+ acmid = {2413302},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {drive-by-downloads, graduated response, malware, modeling, search, web security},
+} 
+
+
